@@ -1,0 +1,37 @@
+h1{
+    color:tomato
+}
+
+li{
+    font-weight: bold
+}
+p, li{
+    color:darkred
+}
+li.special, span.special{
+    list-style-type: square;
+    font-weight: bold;
+}
+
+li em{
+    color: hotpink
+}
+
+h1 + p {
+    font-size: 150%
+}
+p span{
+    color: red;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: saddlebrown;
+}
+
+a:hover{
+    text-decoration: none;
+}
