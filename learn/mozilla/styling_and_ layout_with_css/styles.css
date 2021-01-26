@@ -5,10 +5,10 @@ h1{
 li{
     font-weight: bold
 }
-p, li{
+p{
     color:darkred
 }
-li.special, span.special{
+span.special{
     list-style-type: square;
     font-weight: bold;
 }
@@ -34,4 +34,16 @@ a:visited{
 
 a:hover{
     text-decoration: none;
+}
+
+.main{
+    color:rebeccapurple;
+    border: : 2px solid #ccc;
+    padding : 1em;
+    font-weight: 500;
+    font-family: fantasy;
+}
+.special{
+    color: black;
+
 }
